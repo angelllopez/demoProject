@@ -4,10 +4,10 @@ name: Azure Function Continuous Integration
 on: 
   push: 
     branches: 
-      - master
+      - main
   pull_request:  
-      branches:
-        - master
+    branches:
+      - main
 
 jobs:
   build: 
